@@ -16,6 +16,8 @@ then
     exit 1
 fi
 
+# We can rewrite the file if it exists, but if the parent directoy does not
+# exist and error will be thrown.
 writefile=$1
 dirpath=$(dirname "$writefile")
 if [ ! -d "$dirpath" ]
