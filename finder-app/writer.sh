@@ -3,7 +3,7 @@
 # Author: Hatem Alamir
 # Date: 12/11/2024
 
-# Treat undefined variables as errors
+# Treat undefined variables as errors.
 set -u
 
 if [ $# -lt 2 ]
