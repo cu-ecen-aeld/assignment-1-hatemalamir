@@ -1,5 +1,5 @@
 #!/bin/bash
-# Implementation of assignment 1 item 9
+# Implementation of assignment 1 part 1
 # Author: Hatem Alamir
 # Date: 12/11/2024
 
