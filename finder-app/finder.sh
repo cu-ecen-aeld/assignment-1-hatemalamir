@@ -27,7 +27,7 @@ fi
 searchstr=$2
 
 # -c: num of matching lines,
-# -l num of matching files
+# -l num of matching files.
 matchfiles=$(grep -l -r "$searchstr" "$filesdir" | wc -l)
 matchlines=$(grep -c -h -r "$searchstr" "$filesdir" | awk '{sum += $1} END {print sum}')
 
