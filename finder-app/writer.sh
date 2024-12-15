@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# We can rewrite the file if it exists, but if the parent directoy does not
+# If the parent directoy does not
 # exist and error will be thrown.
 writefile=$1
 dirpath=$(dirname "$writefile")
@@ -25,6 +25,7 @@ then
     echo "Creating directory $dirpath"
     mkdir -p "$dirpath"
 fi
+# Rewrite the file if it exists.
 touch "$writefile"
 if [ $? -eq 0 ]
 then
