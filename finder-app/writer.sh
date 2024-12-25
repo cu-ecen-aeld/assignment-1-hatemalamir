@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # Implementation of assignment 1 item 10
 # Author: Hatem Alamir
 # Date: 12/11/2024
